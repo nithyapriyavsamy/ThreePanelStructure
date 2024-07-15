@@ -1,0 +1,62 @@
+.PanelStructure {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Panel {
+  flex: 1;
+  border: 2px solid azure;
+  background-color: white;
+  box-shadow: 2px 2px 4px 1px rgba(182, 227, 227, 1);
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+  min-width: 350px;
+  border-radius: 5%;
+}
+
+.saveButton {
+  align-items: right;
+  padding-left: 87%;
+  padding-top: 3%;
+}
+
+.Button-Save {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  background-color: #1157a1;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Button-Save:hover {
+  background-color: darkblue;
+}
+
+.element {
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  font-size: 16px;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header {
+  padding-left: 20%;
+}
+
+.empty {
+  padding-left: 15%;
+  padding-top: 5%;
+}
+
+
+
+

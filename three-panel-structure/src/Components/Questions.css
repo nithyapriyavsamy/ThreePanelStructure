@@ -1,0 +1,53 @@
+.PanelStructures {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.Panels {
+    flex: 1;
+    border: blue 10px bold;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    min-width: 350px;
+    border: 2px solid azure;
+    background-color: white;
+    box-shadow: 2px 2px 4px 1px rgba(182, 227, 227, 1);
+    border-radius: 5%;
+}
+
+.saveButton-q {
+    align-items: right;
+    padding-left: 90%;
+    padding-top: 1.5%;
+  }
+  
+  .Button-Save-q {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px; 
+    background-color: #1157a1;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .panel-left{
+    min-width: 400px;
+    max-width:  450px;
+  }
+
+  .panel-right{
+    min-width: 350px;
+    max-width:  1000px;
+    min-height: 500px;
+  }
+
+  .header-q{
+    align-items: center;
+  }
+
+  .arrow{
+    cursor: pointer;
+  }
